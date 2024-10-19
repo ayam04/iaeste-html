@@ -943,24 +943,29 @@ blockquote {
 }
 
 /* Style Classic - Avatar above Testimonial */
-
 .testimonial.classic img {
     display: inline-block;
     margin-bottom: 25px;
 }
 
-.read-more-btn {
-    color:#0e76a8;
-
-}
-
-.read-more-text{
+.read-more-text {
     display: none;
 }
 
-.read-more-text--show{
-    display: inline;
+.read-more-btn {
+    background-color: #a777e3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.read-more-btn:hover {
+    background-color: #8a5bbf;
+    transform: scale(1.05);
+}
+
 .testimonial.classic q {
     display: block;
 }
@@ -972,7 +977,6 @@ blockquote {
     height: 4px;
     margin: 10px auto 15px auto;
 }
-
 /* Style Big */
 
 .testimonial.bigtest {
@@ -2548,6 +2552,7 @@ blockquote {
 /**********************************/
 .team-2 {
     text-align: center;
+    height: 492px;
     margin-bottom: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -2562,38 +2567,44 @@ blockquote {
 
 .team-2 .team-img img {
     width: 100%;
-    height: auto;
+    height: 270px;
     border-radius: 5px 5px 0 0;
 }
 
 .team-2 .team-content {
-    padding: 1px;
+    padding: 20px;
+    text-align: center;
 }
 
 .team-2 .team-content h2 {
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: #333;
 }
 
 .team-2 .team-content h3 {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #555;
 }
 
 .team-2 .team-content h4 {
     font-size: 16px;
-    font-weight: 300;
-    /* font-style: italic; */
-    letter-spacing: 1px;
-    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    color: #777;
 }
 
 .team-2 .team-content p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #888;
+    margin-bottom: 15px;
 }
 .team-2 .team-social {
     position: absolute;
